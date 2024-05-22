@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>属性选择器示例</title>
+	<meta charset="utf-8" />
+    <style type="text/css">
+        li{list-style:none}
+        a[href$="docx"] /*<a>标记中带有“herf”属性，且属性值以“docx”结尾的应用该样式设置*/
+        {
+            background:url(images/word.jpg) no-repeat left center ;
+            padding-left:25px; /* 左边空白25px */
+            line-height:36px;/* 行高36px */
+            font-family:黑体; /* 字体为黑体 */
+            font-size:26px; /* 字体大小为26px */
+        }
+        a[href$="pptx"] /*<a>标记中带有“herf”属性，且属性值以“pptx”结尾的应用该样式设置*/
+        {
+            background:url(images/ppt.jpg) no-repeat left center ;/* 背景图片为“images/ppt.jpg”、不平铺、左端中部对齐 */
+            padding-left:25px; /* 左边空白25px */
+            line-height:36px;  /* 行高36px */
+            font-family:楷体;  /* 字体为楷体 */
+            font-size:26px;    /* 字体大小为26px */
+        }
+        [id = "exp1"] {background-color:lightgray}  /* id属性值等于“exp1”的标记应用该样式设置，背景色为银灰色 */
+        [id*="exp"] {color: red}    /* id属性值中包含“exp”的标记应用该样式设置，以红色字显示 */
+        [id^="sub"] {font-size: 24px;}   /* id属性值以“sub”开头的标记应用该样式设置，字体大小为24px */
+        [id$= "-2"] {font-style:italic; line-height:40px; color:black}/* id属性值以“-2”结尾的标记应用该样式设置，斜体、行高40px、黑色 */
+    </style>
+</head>
+<body>
+    <h1>属性选择器</h1>
+    <nav id="exp1">示例文本exp1
+        <ul>
+            <li><a href="Word.docx">Word文档</a></li>
+            <li><a href="PPT.pptx">PPT演示文稿</a></li>
+        </ul>
+    </nav>
+    <div id="exp2">示例文本exp2</div>
+    <div id="subexp2-1">示例文本sub_exp2-1</div>
+    <div id="subexp2-2">示例文本sub_exp2-2</div>
+</body>
+</html>

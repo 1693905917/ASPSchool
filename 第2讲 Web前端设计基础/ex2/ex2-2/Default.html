@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>盒区域的阴影效果</title>
+	<meta charset="utf-8" />
+    <style type="text/css">
+        .box{
+            width:100px;
+            height:40px;    
+            padding:10px;
+            text-align:center;  
+            vertical-align:middle;      
+            border:blue solid 26px;
+            margin-bottom:20px;position:absolute; top:10px;
+        }
+        #box1{
+            border-radius:40px/30px;
+            box-shadow:10px 10px 10px gray;
+        }
+        #box2{
+            border-radius:20px 30px 60px 80px;
+            box-shadow:10px 10px 0 gray;
+           
+            left:200px;            
+        }
+        #box3{
+            border-image:url(pic.png) 26 26 26 26;
+            
+            left:400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box"><p>区域1</p></div>
+    <div id="box2" class="box"><p>区域2</p></div>
+    <div id="box3" class="box"><p>区域3</p></div>
+</body>
+</html>
