@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:600px; border: solid 1px Silver">
+        <div id="logo">黄河高科技公司网站</div>
+        <div id="nav"><a href="Default.aspx">首页</a>&emsp;|&emsp;<a href="Product.aspx">产品展示</a>&emsp;|&emsp;<a href="Service.aspx">客户服务</a>&emsp;|
+                   &emsp;<a href="Support.aspx">技术支持</a>&emsp;|&emsp;<a href="Contact.aspx">联系我们</a></div>
+        <div id="left"><p style="margin:6px">左侧导航栏</p>
+            <div>
+                <br/>导航项目1<br/><br/>
+                导航项目2<br/><br/>
+                导航项目3<br/><br/>
+                导航项目4</div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="bottom">
+            黄河高科技公司版权所有2017-2020&emsp;&emsp;Tel：12345678&emsp;&emsp;E-mail：abc@abc.com
+        </div>
+    </div>
+    </form>
+</body>
+</html>

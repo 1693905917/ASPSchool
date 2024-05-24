@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~\Default.aspx" title="第三波网上书店"  description="">    
+		    <siteMapNode url="ShopPage.aspx" title="首页"  description=""/>			  
+			  <siteMapNode url="~\Books\ListBooksByCategory.aspx" title="分类检索"  description="" />
+			  <siteMapNode url="" title="订单查询"  description="" />
+        <siteMapNode url="Cart.aspx" title="购物车"  description="" />
+        <siteMapNode url="~\Admin\ListAllUsers.aspx" title="用户管理"  description=""/>
+			  <siteMapNode url="" title="修改密码"  description="" />
+			  <siteMapNode url="~\Admin\UserDetails.aspx"  title="修改用户资料"  description="" />
+        <siteMapNode url="~\Membership\UserRegister.aspx"  title="用户注册"  description="" />
+        <siteMapNode url="~\Membership\UserLogin.aspx"  title="用户登录"  description="" />
+			  <siteMapNode url=""  title="退出登录"  description="" />    
+	  </siteMapNode>
+</siteMap>

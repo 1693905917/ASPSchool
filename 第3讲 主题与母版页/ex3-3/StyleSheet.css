@@ -1,0 +1,55 @@
+﻿body 
+{
+    font-size:small;
+    text-align:center;
+}
+#logo	
+{
+    width: 600px;
+    height: 60px;
+    line-height:60px;		/*设置heghit和line-heghit属性值相同可使单行文本垂直居中*/
+    border: 1px solid Silver;
+    background-color:darkblue;
+    text-align:center;
+    font-family:华文行楷; font-size:xx-large;
+    color:#FFFFFF;
+}
+#nav
+{
+    border: 1px solid Silver;
+    width: 600px;
+    height: 30px;
+    background-color:cornflowerblue;    
+    line-height:30px;
+}
+#left
+{
+    width: 150px;
+    height: 118px;
+    line-height:10px;
+    border: 1px solid Silver;
+    background-color:cadetblue;
+    float:left;
+}
+#left div		/*左侧导航栏中所有<div>标记的样式设置*/
+{
+    margin: 10px;
+    width: 130px;
+    height: 85px;
+    background-color: #FFFFFF;
+}
+#bottom
+{
+    border: 1px solid Silver;
+    width: 600px;
+    height: 40px;
+    line-height:40px;
+    background-color:cornflowerblue;  
+    text-align:center;
+}
+a {text-decoration:none}
+a:link {color:black}
+a:visited {color:black}	
+a:hover { color:red}
+
+

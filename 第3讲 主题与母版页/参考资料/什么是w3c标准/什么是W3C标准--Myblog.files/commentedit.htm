@@ -1,0 +1,21 @@
+
+if (chkdiv('oblog_edit')) {
+document.getElementById('oblog_edit').style.border='none';
+document.getElementById('oblog_edit').style.background='none';
+document.getElementById('oblog_edit').innerHTML='<textarea name="oblog_edittext"  rows="10" style="width:100%;"></textarea>';
+}
+function Verifycomment()
+{
+	document.all("edit").value=document.all("oblog_edittext").value;
+	return true;
+}
+function reply_quote(id)
+{
+	document.all("oblog_edittext").value+="<div class='quote'><strong>以下引用"+document.all["n_"+id].innerHTML+"在"+document.all["t_"+id].innerHTML+"发表的评论:</strong><br /><br />"+document.all["c_"+id].innerHTML+"</div>\n"
+	document.all("oblog_edittext").focus();
+}
+
+document.getElementById('UserName').value='';
+document.getElementById('Password').value='';
+document.getElementById('homepage').value='http://';
+ 

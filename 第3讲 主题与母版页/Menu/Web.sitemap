@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<siteMapNode title="北大青鸟" description="" url="Default.aspx">
+		<siteMapNode title="培训中心" description="" url="Default2.aspx">
+			<siteMapNode title="ACCP培训" url="~/accp.aspx" description="" />
+			<siteMapNode title="BTEST培训" url="~/betest.aspx" description="" />
+			<siteMapNode title="BENET培训" url="benet.aspx" description="" />
+		</siteMapNode>
+		<siteMapNode title="公司文化" description="" url="Company.aspx">
+			<siteMapNode title="ACCP" url="~/accp.aspx?accp" description="" />
+			<siteMapNode title="BTEST" url="~/betest.aspx?btest" description="" />
+			<siteMapNode title="BENET" url="benet.aspx?benet" description="" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

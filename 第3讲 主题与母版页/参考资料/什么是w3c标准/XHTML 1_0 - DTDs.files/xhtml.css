@@ -1,0 +1,141 @@
+.ednote {
+	FONT-SIZE: 80%; FONT-STYLE: italic
+}
+UL.toc {
+	LIST-STYLE-TYPE: none
+}
+.new {
+	COLOR: blue
+}
+PRE.example {
+	FONT-WEIGHT: bold; MARGIN-LEFT: 0px; COLOR: green; MARGIN-RIGHT: 0px; FONT-FAMILY: monospace; WHITE-SPACE: pre
+}
+PRE.dtd {
+	FONT-WEIGHT: normal; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; FONT-FAMILY: monospace; WHITE-SPACE: pre
+}
+DIV.toc {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-BOTTOM: 3px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #99ffff
+}
+DIV.subtoc {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-BOTTOM: 3px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #99ffff
+}
+A.ref {
+	FONT-WEIGHT: bold
+}
+A.normref {
+	FONT-WEIGHT: bold
+}
+P.issueTitle {
+	FONT-SIZE: 150%
+}
+DIV.issue {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #cfc
+}
+DIV.navbar {
+	TEXT-ALIGN: center
+}
+.center {
+	TEXT-ALIGN: center
+}
+.alphalist {
+	LIST-STYLE-TYPE: upper-alpha
+}
+.codelist {
+	
+}
+DL.codelist DT {
+	FONT-WEIGHT: normal; COLOR: #660099; FONT-STYLE: normal; FONT-FAMILY: mono
+}
+.termlist {
+	
+}
+DL.termlist DT {
+	FONT-WEIGHT: bold; COLOR: #330000
+}
+A.entity {
+	COLOR: red
+}
+A.element {
+	COLOR: green
+}
+.elements {
+	FONT-WEIGHT: bold; FONT-FAMILY: mono
+}
+.collection {
+	FONT-WEIGHT: bold; FONT-FAMILY: mono
+}
+.datatype {
+	FONT-WEIGHT: bold; FONT-FAMILY: mono
+}
+.attributes {
+	FONT-WEIGHT: bold; FONT-FAMILY: mono
+}
+.content {
+	FONT-WEIGHT: bold; FONT-FAMILY: mono
+}
+.dfn {
+	FONT-WEIGHT: bold; COLOR: #400040; FONT-STYLE: italic
+}
+TT {
+	COLOR: #4000af
+}
+DL.desc {
+	MARGIN-LEFT: 5%; MARGIN-RIGHT: 5%
+}
+.sect2 {
+	MARGIN-LEFT: 5%; MARGIN-RIGHT: 5%
+}
+.element {
+	FONT-WEIGHT: bold; COLOR: #f00000
+}
+.attlist {
+	FONT-WEIGHT: bold; COLOR: #f06000
+}
+.pentity {
+	COLOR: #000080
+}
+SPAN.attlistid {
+	FONT-SIZE: smaller; VERTICAL-ALIGN: super; COLOR: gray
+}
+SPAN.elementid {
+	FONT-SIZE: 80%; VERTICAL-ALIGN: super; COLOR: gray
+}
+SPAN.fixme {
+	COLOR: red
+}
+TABLE.moduledef {
+	WIDTH: 100%
+}
+DIV.attrRef {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #d5dee3
+}
+DIV.attrDef {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #d5dee3
+}
+SPAN.term {
+	COLOR: rgb(0,0,192); FONT-STYLE: italic
+}
+CODE {
+	FONT-WEIGHT: bold; COLOR: green; FONT-FAMILY: monospace
+}
+CODE.greenmono {
+	FONT-WEIGHT: bold; COLOR: green; FONT-FAMILY: monospace
+}
+.good {
+	BORDER-RIGHT: green 2px solid; BORDER-TOP: green 2px solid; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; BORDER-LEFT: green 2px solid; COLOR: green; MARGIN-RIGHT: 5%; BORDER-BOTTOM: green 2px solid
+}
+.bad {
+	BORDER-RIGHT: red 2px solid; BORDER-TOP: red 2px solid; MARGIN-LEFT: 0px; BORDER-LEFT: red 2px solid; COLOR: rgb(192,101,101); MARGIN-RIGHT: 5%; BORDER-BOTTOM: red 2px solid
+}
+DIV.navbar {
+	TEXT-ALIGN: center
+}
+DIV.contents {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0.5em; BORDER-TOP: medium none; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.5em; BORDER-LEFT: medium none; MARGIN-RIGHT: 5%; PADDING-TOP: 0.5em; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: rgb(204,204,255)
+}
+.tocline {
+	LIST-STYLE-TYPE: none
+}
+TABLE.exceptions {
+	BACKGROUND-COLOR: rgb(255,255,153)
+}

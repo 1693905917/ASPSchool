@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMapNode url="" title="管理员控制面板"  description="">
+	<siteMapNode url="" title="用户管理"  description="">
+		<siteMapNode url="~\Admin\ListAllUsers.aspx" title="管理用户"  description="" />
+		<siteMapNode url="~\Admin\UserStatue.aspx"  title="状态管理"  description="" />
+	</siteMapNode>
+	<siteMapNode url="" title="图书分类管理"  description="">
+		<siteMapNode url="~\Admin\AddBooksCatagory.aspx" title="添加图书分类"  description="" />
+		<siteMapNode url="~\Books\ListBooksByCategory.aspx" title="为书籍分类"  description="" />
+	</siteMapNode>
+	<siteMapNode url="" title="定单管理"  description="">
+		<siteMapNode url="~\Admin\CheckOrders.aspx" title="审核定单"  description="" />
+	</siteMapNode>
+</siteMapNode>
