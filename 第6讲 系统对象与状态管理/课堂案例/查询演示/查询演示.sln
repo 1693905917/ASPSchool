@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\查询演示\", ".", "{2D065261-B362-4001-BCB1-0F3A9C15848F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/查询演示"
+		Debug.AspNetCompiler.PhysicalPath = "..\查询演示\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\查询演示\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/查询演示"
+		Release.AspNetCompiler.PhysicalPath = "..\查询演示\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\查询演示\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9871"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D065261-B362-4001-BCB1-0F3A9C15848F}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2D065261-B362-4001-BCB1-0F3A9C15848F}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
