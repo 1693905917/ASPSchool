@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>湖北经济学院网站</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="logo">
+        </div>
+        <div id="left">
+            <div id="leftcolumn">
+                <table>
+                    <tr>
+                        <td style="font-size:medium; background-color:White; font-family: 楷体_GB2312; font-weight: bold; color: #000099;" >学校专栏</td>                      
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">学校简介</asp:HyperLink>
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/sight.aspx">校园风光</asp:HyperLink>
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/QA.aspx">考生问答</asp:HyperLink>
+                        </td>                      
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="bottom">湖北经济学院 • 版权所有 • 2009-2024</div>
+    </div>
+    </form>
+</body>
+</html>
