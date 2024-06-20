@@ -1,0 +1,7 @@
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\bin\Debug\BLL.dll
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\bin\Debug\BLL.pdb
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\bin\Debug\DAL.dll
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\bin\Debug\DAL.pdb
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\obj\Debug\BLL.dll
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\BLL\obj\Debug\BLL.pdb

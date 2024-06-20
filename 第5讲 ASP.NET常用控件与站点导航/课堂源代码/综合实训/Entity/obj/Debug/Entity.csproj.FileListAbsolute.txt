@@ -1,0 +1,10 @@
+D:\ASP.NET 3.5\code\综合实训\Entity\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\综合实训\Entity\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\综合实训\Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\综合实训\Entity\obj\Debug\Entity.dll
+D:\ASP.NET 3.5\code\综合实训\Entity\obj\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\zongheshixun\Entity\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\zongheshixun\Entity\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\zongheshixun\Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\zongheshixun\Entity\obj\Debug\Entity.dll
+D:\ASP.NET 3.5\code\zongheshixun\Entity\obj\Debug\Entity.pdb

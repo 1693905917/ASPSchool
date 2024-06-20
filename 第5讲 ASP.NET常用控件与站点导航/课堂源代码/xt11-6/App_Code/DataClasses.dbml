@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="StudentDB" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=VM2K3S;Initial Catalog=StudentDB;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="StudentDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[user]" Member="user">
+    <Type Name="user">
+      <Column Name="username" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="userpassword" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="Char(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

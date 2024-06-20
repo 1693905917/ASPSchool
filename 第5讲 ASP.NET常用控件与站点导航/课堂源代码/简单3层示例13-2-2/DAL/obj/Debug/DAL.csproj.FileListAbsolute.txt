@@ -1,0 +1,5 @@
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\DAL\bin\Debug\DAL.dll
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\DAL\bin\Debug\DAL.pdb
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\DAL\obj\Debug\DAL.dll
+D:\ASP.NET 3.5\code\简单3层示例13-2-2\DAL\obj\Debug\DAL.pdb

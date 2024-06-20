@@ -1,0 +1,90 @@
+在VB.NET中每个对象都有三个基本要素，它们是：
+B
+A. 对象的名称、值和所属类
+B. 对象的属性、事件和方法
+C. 对象的大小、存储方式和内容
+D. 对象的访问方法、存储方式和名称
+数学函数式Sin25°写成VB.NET表达式是：
+D
+A. Sin25
+B. Sin(25)
+C. SIN(25)
+D. Sin(25*3.14/180)
+下列哪组语句可以将变量A、B的值互换。
+C
+A. A = B : B = A
+B. A = A + B : B = A – B : A = A - B
+C. C =A : A=B: B =C
+D. A = ( A + B ) / 2 : B = ( A – B ) / 2
+“x是小于100的非负数”，用VB表达式表示正确的是：
+C
+A. 0 ≤ x ＜ 100
+B. 0 <= x < 100
+C. 0 <= x And x < 100
+D.0 <= x Or x < 100
+列表框常用的属性有：
+A
+A. SelectedIndex、SelectedItem
+B. Items.Add、Items.Insert
+C. SelectedIndex、Items.Add
+D. SelectedItem、Items.Insert
+数组与集合很相似，但二者主要的不同点是：
+A
+A. 数组中只能存放相同类型的数据
+B. 集合中只能存放相同类型的数据
+C. 二者能包含的成员数相差很多
+D. 二者是同一对象在不同场合中的不同名称
+VB.NET的过程具有递归调用功能。递归调用有以下两种类型。
+C
+A. 直接递归、同步递归
+B. 直接递归、异步递归
+C. 直接递归、间接递归
+D. 同步递归、异步递归
+以Stream类为基础派生的类有。
+D
+A. 文件流类、地址流类、缓冲区流类和视频流类
+B. 数据流类、地址流类、视频流类和控制流类
+C. 控制流、内存流、数据流和网络流
+D. 文件流类、内存流类、缓冲区流类和网络流类
+在实际的应用中，菜单可以分为两种基本类型：
+C
+A. 上下文菜单和弹出式菜单
+B. 弹出式菜单和快捷菜单
+C. 下拉式菜单和上下文菜单
+D. 上下文菜单和快捷菜单
+类中用于实现类对外界的响应的是：
+B
+A. 成员属性
+B. 成员事件
+C. 成员变量
+D. 成员方法
+MCI32控件中用于指定多媒体文件和多媒体设备的类型的属性是：
+A
+A. DeviceType
+B. FileName
+C. Command
+D. Sequencer
+“由计算机硬件、操作系统、数据库管理系统以及在其他对象支持下建立起来的数据库、数据库应用程序、用户和维护人员等组成的一个整体”指的是：
+C
+A. 数据库管理系统
+B. 数据库应用程序
+C. 数据库系统
+D. 数据库
+ADO.NET中常用的对象有：
+C
+A. Connection、Command、SQL
+B. DataAdapter、DataReader、ODBC
+C. Command、DataSet、DataAdapter
+D. Connection、Command、ASP.NET
+<A href="news1.htm" target="_blank">校园新闻</A>表示：
+D
+A. 设置一个文字超链接，目标页面为blank
+B. 设置news1.htm中的文字为粗体
+C. 打开一个空白网页
+D. 设置一个文字超链接，并在新窗口中打开news1.htm
+Response对象的Write方法用于：
+B
+A. 向服务器发送指定的文本内容
+B. 向浏览器发送指定的内容
+C. 将信息写入文本文件
+D. 将用户输入写入数据库

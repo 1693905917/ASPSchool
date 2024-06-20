@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+            height: 35px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .style3
+        {
+            text-align: center;
+            width: 153px;
+            height: 26px;
+        }
+        .style4
+        {
+            text-align: center;
+            width: 154px;
+            height: 26px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 460px;" border="1">
+            <tr>
+                <td class="style1" colspan="3">欢迎选购本站图书</td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Default.aspx">程序设计类图书</asp:LinkButton>
+                </td>
+                <td class="style4">
+                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/webpage.aspx">网页制作类图书</asp:LinkButton>
+                </td>
+                <td class="style3">
+                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/Tools.aspx">工具软件类图书</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                
+                    <asp:Button ID="ButtonAdd" runat="server" Text="放入购物车" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="ButtonView" runat="server" Text="查看购物车" />
+                
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Item url="Default.aspx" name="首页">
+  </Item>
+  <Item url="Default.aspx" name="读者管理">
+  </Item>
+  <Item url="Default.aspx" name="图书管理">
+  </Item>
+  <Item url="" name="图书借还">
+    <Option url="" name="图书借阅"></Option>
+    <Option url="" name="图书归还"></Option>
+  </Item>
+  <Item url="Default.aspx" name="排行榜">
+  </Item>
+  <Item url="Default.aspx" name="系统查询">
+  </Item>
+  <Item url="Default.aspx" name="系统设置">
+  </Item>
+</Root>

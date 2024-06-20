@@ -1,0 +1,10 @@
+D:\ASP.NET 3.5\code\综合实训\Utility\bin\Debug\Utility.dll
+D:\ASP.NET 3.5\code\综合实训\Utility\bin\Debug\Utility.pdb
+D:\ASP.NET 3.5\code\综合实训\Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\综合实训\Utility\obj\Debug\Utility.dll
+D:\ASP.NET 3.5\code\综合实训\Utility\obj\Debug\Utility.pdb
+D:\ASP.NET 3.5\code\zongheshixun\Utility\bin\Debug\Utility.dll
+D:\ASP.NET 3.5\code\zongheshixun\Utility\bin\Debug\Utility.pdb
+D:\ASP.NET 3.5\code\zongheshixun\Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\zongheshixun\Utility\obj\Debug\Utility.dll
+D:\ASP.NET 3.5\code\zongheshixun\Utility\obj\Debug\Utility.pdb

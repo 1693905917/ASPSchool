@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+	<BookClass url="default.aspx" title="新书推荐"  description="">  
+	  <siteMapNode url="ShopPage.aspx?typeid=1" title="C#"  description=""/>
+	  <siteMapNode url="ShopPage.aspx?typeid=2" title="J2EE"  description=""/>
+	  <siteMapNode url="ShopPage.aspx?typeid=3" title="Ajax"  description=""/>
+	</BookClass>
+	<BookClass url="default.aspx" title="编程经典"  description="">
+		<siteMapNode url="ShopPage.aspx?typeid=1" title="C#"  description=""/>
+		<siteMapNode url="ShopPage.aspx?typeid=2" title="J2EE"  description=""/>
+		<siteMapNode url="ShopPage.aspx?typeid=3" title="Ajax"  description=""/>
+	</BookClass>
+</siteMap>

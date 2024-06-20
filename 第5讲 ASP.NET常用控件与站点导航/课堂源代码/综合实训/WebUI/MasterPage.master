@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>曙光大学BBS</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            text-align: left;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="text-align:center">
+    <form id="form1" runat="server">
+    <div style="width:1024px; border: solid 1px Silver">
+        <div id="logo">曙光大学BBS</div>
+        <div id="nav" class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperDefault" runat="server" NavigateUrl="~/Default.aspx">首页</asp:HyperLink>
+            &nbsp; |&nbsp;
+            <asp:HyperLink ID="HyperLogin" runat="server" NavigateUrl="~/UserLogin.aspx">登录</asp:HyperLink>
+&nbsp; |&nbsp; 
+            <asp:HyperLink ID="HyperRegister" runat="server" NavigateUrl="~/Register.aspx">会员注册</asp:HyperLink>
+            &nbsp; |&nbsp;&nbsp; 
+            <asp:HyperLink ID="HyperTop10" runat="server" NavigateUrl="~/Top10.aspx">10大热门贴</asp:HyperLink>
+            &nbsp; |&nbsp;
+            <asp:LinkButton ID="LinkExit" runat="server" onclick="LinkExit_Click">注销</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextKey" runat="server"></asp:TextBox>
+            <asp:Button ID="ButtonSearch" runat="server" Text="搜索" 
+                onclick="ButtonSearch_Click" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLeave" runat="server" NavigateUrl="~/LeaveMessage.aspx">发表帖子</asp:HyperLink>
+&nbsp;
+            <asp:HyperLink ID="HyperUserList" runat="server" NavigateUrl="~/UserList.aspx">会员列表</asp:HyperLink>
+&nbsp;
+            <asp:HyperLink ID="HyperOwnerList" runat="server" 
+                NavigateUrl="~/OwnerList.aspx">版主列表</asp:HyperLink>
+&nbsp;
+            <asp:HyperLink ID="HyperEditCategory" runat="server" 
+                NavigateUrl="~/EditCategory.aspx">版块维护</asp:HyperLink>
+        </div>
+        <div id="left">&nbsp;&nbsp;&nbsp; 欢迎你：<asp:Label ID="LabelName" runat="server" 
+                Text="Label"></asp:Label>
+            <br />
+&nbsp;&nbsp; 你的IP是：<asp:Label ID="LabelIP" runat="server" Text="Label"></asp:Label>
+            <div>
+                <table class="style2">
+                    <tr>
+                        <td bgcolor="#99CCFF">
+                            <b>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/point.gif" />
+&nbsp;校园风光</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Image ID="Image2" runat="server" Height="168px" ImageUrl="~/images/1.jpg" 
+                                Width="226px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Image ID="Image3" runat="server" Height="159px" ImageUrl="~/images/2.jpg" 
+                                Width="226px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#99CCFF">
+                            <b>
+                            <asp:Image ID="Image4" runat="server" ImageUrl="~/images/point.gif" />
+&nbsp;友情链接</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="39px" 
+                                ImageUrl="~/images/163.gif" Width="89px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="39px" 
+                                ImageUrl="~/images/sina.gif" Width="89px" />
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+        
+        <div id="bottom">曙光大学版权所有 2009-2012&nbsp; Tel：12345678&nbsp;&nbsp;&nbsp; 
+            E-mail：sgdx@abc.com</div>
+    </div>
+    </form>
+</body>
+</html>

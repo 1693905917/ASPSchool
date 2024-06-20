@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Root">
+    <siteMapNode url="Default.aspx" title="首页"/>
+    <siteMapNode url="Default2.aspx" title="读者管理"/>
+    <siteMapNode url="Default3.aspx" title="图书管理"/>
+    <siteMapNode url="Default4.aspx" title="图书借还"  description="classTwo">
+      <siteMapNode url="Default5.aspx" title="图书借阅"/>
+      <siteMapNode url="Default6.aspx" title="图书归还"/>
+    </siteMapNode>
+    <siteMapNode url="Default7.aspx" title="排行榜"/>
+    <siteMapNode url="Default8.aspx" title="系统查询"/>
+    <siteMapNode url="Default9.aspx" title="系统设置"/>
+  </siteMapNode>
+</siteMap>

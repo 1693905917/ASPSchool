@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>商务网站</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width:1024px; border: solid 1px Silver">
+        <div id="logo">曙光大学BBS</div>
+        <div id="nav" class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink1" runat="server">首页</asp:HyperLink>
+            &nbsp; |&nbsp;
+            <asp:HyperLink ID="HyperLink2" runat="server">登录</asp:HyperLink>
+&nbsp;&nbsp; |&nbsp; 
+            <asp:HyperLink ID="HyperLink3" runat="server">会员注册</asp:HyperLink>
+            &nbsp; |&nbsp;&nbsp; 
+            联系我们</div>
+        <div id="left">&nbsp;&nbsp;&nbsp; 欢迎你：<asp:Label ID="Label1" runat="server" 
+                Text="Label"></asp:Label>
+            <br />
+&nbsp;&nbsp; 你的IP是：<asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            <div>
+                <asp:Panel ID="Panel1" runat="server" Height="47px" Width="211px">
+                </asp:Panel>
+                <br/>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+        
+        <div id="bottom">曙光大学版权所有 2009-2012&nbsp; Tel：12345678&nbsp;&nbsp;&nbsp; 
+            E-mail：sgdx@abc.com</div>
+    </div>
+    </form>
+</body>
+</html>

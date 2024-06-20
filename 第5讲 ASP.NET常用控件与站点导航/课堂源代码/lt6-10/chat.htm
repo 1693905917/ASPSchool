@@ -1,0 +1,23 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<title>开心聊天室</title>
+</head>
+<%
+	    if session("nick")="" then Response.Redirect "default.aspx"
+	 %>	
+<frameset rows="*,50%">
+	<frame name="main" target="footnotes" src="main.aspx">
+	<frame name="footnotes" src="send.aspx">
+	<noframes>
+	<body>
+
+	<p>此网页使用了框架，但您的浏览器不支持框架。</p>
+	
+
+	</body>
+	</noframes>
+</frameset>
+
+</html>

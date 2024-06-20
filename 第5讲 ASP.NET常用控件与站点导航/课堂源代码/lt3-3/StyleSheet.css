@@ -1,0 +1,52 @@
+﻿body 
+{
+    font-size:small;
+    text-align:center;
+}
+#logo
+{
+    width: 1024px;
+    height: 60px;
+    border: 1px solid Silver;
+    background-color: #99CCFF;
+    text-align:center;
+    font-family:华文行楷; font-size:xx-large;
+    line-height:60px;
+}
+#nav
+{
+    border: 1px solid Silver;
+    width: 1024px;
+    height: 30px;
+    background-color:#FFFF99;
+    line-height:30px;
+    
+    
+}
+#left
+{
+    width: 250px;    
+    border: 1px solid Silver;
+    background-color:#FFFF00;
+    float:left;
+    text-align: left;
+    line-height: 20px;
+}
+#left div
+{
+    margin: 10px;
+    width: 232px;
+    height: 65px;
+    background-color: #FFFFFF;
+}
+#bottom
+{
+    border: 1px solid Silver;
+    width: 1024px;
+    height: 40px;
+    background-color:#CC9900;
+    text-align:center;
+    line-height:40px;    
+}
+    
+   

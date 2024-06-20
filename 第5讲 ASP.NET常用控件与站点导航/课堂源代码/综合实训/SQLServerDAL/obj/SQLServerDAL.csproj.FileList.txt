@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SQLServerDAL.dll
+bin\Debug\SQLServerDAL.pdb
+bin\Debug\Entity.dll
+bin\Debug\IDAL.dll
+bin\Debug\Utility.dll
+bin\Debug\IDAL.pdb
+bin\Debug\Entity.pdb
+bin\Debug\Utility.pdb
+obj\Debug\SQLServerDAL.dll
+obj\Debug\SQLServerDAL.pdb

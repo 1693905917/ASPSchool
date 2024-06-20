@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<siteMapNode title="第三波网络书店" description="" url="Default.aspx">
+		<siteMapNode title="新书推荐" url="~/accp.aspx" description="" />
+		<siteMapNode title="编程宝典" url="~/betest.aspx" description="" />
+		<siteMapNode title="程序人生" url="/benet.aspx" description="" />
+	</siteMapNode>
+</siteMap>

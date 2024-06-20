@@ -1,0 +1,5 @@
+D:\ASP.NET 3.5\code\lt13-2\CheckUser\bin\Debug\CheckUser.dll
+D:\ASP.NET 3.5\code\lt13-2\CheckUser\bin\Debug\CheckUser.pdb
+D:\ASP.NET 3.5\code\lt13-2\CheckUser\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\lt13-2\CheckUser\obj\Debug\CheckUser.dll
+D:\ASP.NET 3.5\code\lt13-2\CheckUser\obj\Debug\CheckUser.pdb

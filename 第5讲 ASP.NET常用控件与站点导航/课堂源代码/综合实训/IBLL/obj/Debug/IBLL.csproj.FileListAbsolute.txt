@@ -1,0 +1,14 @@
+D:\ASP.NET 3.5\code\综合实训\IBLL\bin\Debug\IBLL.dll
+D:\ASP.NET 3.5\code\综合实训\IBLL\bin\Debug\IBLL.pdb
+D:\ASP.NET 3.5\code\综合实训\IBLL\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\综合实训\IBLL\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\综合实训\IBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\综合实训\IBLL\obj\Debug\IBLL.dll
+D:\ASP.NET 3.5\code\综合实训\IBLL\obj\Debug\IBLL.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\bin\Debug\IBLL.dll
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\bin\Debug\IBLL.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\obj\Debug\IBLL.dll
+D:\ASP.NET 3.5\code\zongheshixun\IBLL\obj\Debug\IBLL.pdb

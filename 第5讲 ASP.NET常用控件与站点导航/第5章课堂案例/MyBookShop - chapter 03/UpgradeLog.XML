@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MyBookShop">
+</Property><Property Name="解决方案文件" Value="D:\教学课件（曾长军）\2019.2.24课件\ASP.NET企业级架构开发技术\第5讲 站点导航控件与母版页\课堂案例\MyBookShop - chapter 03\MyBookShop.sln">
+</Property><Property Name="用户选项文件" Value="D:\教学课件（曾长军）\2019.2.24课件\ASP.NET企业级架构开发技术\第5讲 站点导航控件与母版页\课堂案例\MyBookShop - chapter 03\MyBookShop.suo">
+</Property><Property Name="Date" Value="2019年4月23日 星期二">
+</Property><Property Name="Time" Value="19:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MyBookShop.sln" Description="文件已成功备份为 D:\教学课件（曾长军）\2019.2.24课件\ASP.NET企业级架构开发技术\第5讲 站点导航控件与母版页\课堂案例\MyBookShop - chapter 03\Backup\MyBookShop.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MyBookShop.suo" Description="文件已成功备份为 D:\教学课件（曾长军）\2019.2.24课件\ASP.NET企业级架构开发技术\第5讲 站点导航控件与母版页\课堂案例\MyBookShop - chapter 03\Backup\MyBookShop.suo">
+</Event><Event ErrorLevel="0" Project="" Source="MyBookShop.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="MyBookShop.sln" Description="Converted">
+</Event></UpgradeLog>

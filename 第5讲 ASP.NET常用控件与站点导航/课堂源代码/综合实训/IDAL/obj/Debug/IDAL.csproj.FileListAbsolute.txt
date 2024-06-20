@@ -1,0 +1,14 @@
+D:\ASP.NET 3.5\code\综合实训\IDAL\bin\Debug\IDAL.dll
+D:\ASP.NET 3.5\code\综合实训\IDAL\bin\Debug\IDAL.pdb
+D:\ASP.NET 3.5\code\综合实训\IDAL\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\综合实训\IDAL\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\综合实训\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\综合实训\IDAL\obj\Debug\IDAL.dll
+D:\ASP.NET 3.5\code\综合实训\IDAL\obj\Debug\IDAL.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\bin\Debug\IDAL.dll
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\bin\Debug\IDAL.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\bin\Debug\Entity.dll
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\bin\Debug\Entity.pdb
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\obj\Debug\IDAL.dll
+D:\ASP.NET 3.5\code\zongheshixun\IDAL\obj\Debug\IDAL.pdb

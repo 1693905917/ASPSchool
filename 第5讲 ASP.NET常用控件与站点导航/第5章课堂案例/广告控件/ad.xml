@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements> 
+
+<Ad> 
+<ImageUrl>~/images/163.gif</ImageUrl> 
+<NavigateUrl>http://www.163.com</NavigateUrl> 
+<AlternateText>网易</AlternateText> 
+</Ad> 
+
+<Ad> 
+<ImageUrl>~/images/baidu.gif</ImageUrl> 
+<NavigateUrl>http://www.baidu.com</NavigateUrl> 
+<AlternateText>百度</AlternateText> 
+</Ad> 
+
+<Ad> 
+<ImageUrl>~/images/sina.gif</ImageUrl> 
+<NavigateUrl>http://www.sina.com.cn</NavigateUrl> 
+<AlternateText>百度</AlternateText> 
+</Ad> 
+
+
+</Advertisements>

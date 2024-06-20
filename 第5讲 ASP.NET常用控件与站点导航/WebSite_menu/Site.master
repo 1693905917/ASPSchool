@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    我的 ASP.NET 应用程序
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">登录</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        欢迎您，<span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="主页">
+                            <asp:MenuItem Text="新建项1" Value="新建项1"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="关于">
+                            <asp:MenuItem Text="新建项1" Value="新建项2"></asp:MenuItem>
+                            <asp:MenuItem Text="新建项2" Value="新建项2"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="院系" Value="院系" NavigateUrl="~/About.aspx">
+                            <asp:MenuItem Text="信息工程学院" Value="信息工程学院"></asp:MenuItem>
+                            <asp:MenuItem Text="法商学院" Value="法商学院"></asp:MenuItem>
+                            <asp:MenuItem Text="工商管理" Value="工商管理"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="行政管理" Value="行政管理">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="图书馆" Value="图书馆">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="校长办公室" Value="校长办公室">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="车队" Value="车队">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="物业管理" Value="物业管理"></asp:MenuItem>
+                        <asp:MenuItem Text="联系我们" Value="联系我们"></asp:MenuItem>
+                        <asp:MenuItem Text="年级" Value="年级">
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="大一" Value="大一"></asp:MenuItem>
+                            <asp:MenuItem Text="大二" Value="大二"></asp:MenuItem>
+                            <asp:MenuItem Text="大三" Value="大三"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="班级" Value="班级"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

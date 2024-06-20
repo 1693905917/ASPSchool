@@ -1,0 +1,22 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        请输入一个数字序列：<asp:TextBox ID="TextNum" runat="server"></asp:TextBox>
+&nbsp;<asp:Button ID="ButtonConver" runat="server" onclick="ButtonConver_Click" Text="转 换" />
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+    
+    </div>
+    </form>
+</body>
+</html>

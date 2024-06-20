@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>输入关键词：<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp; 选择搜索类型：<asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>文章标题</asp:ListItem>
+            <asp:ListItem>文章内容</asp:ListItem>
+            <asp:ListItem>作者姓名</asp:ListItem>
+        </asp:DropDownList>
+&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="搜 索" />
+&nbsp;<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

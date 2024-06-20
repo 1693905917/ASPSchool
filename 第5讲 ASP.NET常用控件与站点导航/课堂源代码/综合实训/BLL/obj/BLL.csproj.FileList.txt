@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\BLL.dll
+bin\Debug\BLL.pdb
+bin\Debug\Entity.dll
+bin\Debug\Factory.dll
+bin\Debug\IBLL.dll
+bin\Debug\IDAL.dll
+bin\Debug\Utility.dll
+bin\Debug\IDAL.pdb
+bin\Debug\IBLL.pdb
+bin\Debug\Entity.pdb
+bin\Debug\Utility.pdb
+bin\Debug\Factory.pdb
+obj\Debug\BLL.dll
+obj\Debug\BLL.pdb

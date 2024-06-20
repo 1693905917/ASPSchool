@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebUI", "WebUI\", "{50840A11-A561-4004-8ADA-E9105713B378}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}|BLL.dll;{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}|Entity.dll;{FA1E9B18-FB30-4C00-9776-C6687820418C}|Factory.dll;{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}|IBLL.dll;{E43789A9-A692-4213-8A70-29852274F473}|IDAL.dll;{149509C6-49F7-4BA9-8347-5E2E79903DBD}|Utility.dll;{3309565C-3FA6-4F0D-9936-8982862640CA}|SQLServerDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebUI"
+		Debug.AspNetCompiler.PhysicalPath = "WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebUI"
+		Release.AspNetCompiler.PhysicalPath = "WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3054"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{FA1E9B18-FB30-4C00-9776-C6687820418C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBLL", "IBLL\IBLL.csproj", "{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDAL", "IDAL\IDAL.csproj", "{E43789A9-A692-4213-8A70-29852274F473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerDAL", "SQLServerDAL\SQLServerDAL.csproj", "{3309565C-3FA6-4F0D-9936-8982862640CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{149509C6-49F7-4BA9-8347-5E2E79903DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50840A11-A561-4004-8ADA-E9105713B378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50840A11-A561-4004-8ADA-E9105713B378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50840A11-A561-4004-8ADA-E9105713B378}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{50840A11-A561-4004-8ADA-E9105713B378}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA0D7E9-8472-4BD7-910C-E4D8401C6BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5A5224-9996-4CA3-97E3-FCA95E52CC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1E9B18-FB30-4C00-9776-C6687820418C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1E9B18-FB30-4C00-9776-C6687820418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1E9B18-FB30-4C00-9776-C6687820418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1E9B18-FB30-4C00-9776-C6687820418C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D684B48-06BF-4ECD-9C83-17ABEEAC3040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43789A9-A692-4213-8A70-29852274F473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43789A9-A692-4213-8A70-29852274F473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43789A9-A692-4213-8A70-29852274F473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43789A9-A692-4213-8A70-29852274F473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3309565C-3FA6-4F0D-9936-8982862640CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3309565C-3FA6-4F0D-9936-8982862640CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3309565C-3FA6-4F0D-9936-8982862640CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3309565C-3FA6-4F0D-9936-8982862640CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149509C6-49F7-4BA9-8347-5E2E79903DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149509C6-49F7-4BA9-8347-5E2E79903DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149509C6-49F7-4BA9-8347-5E2E79903DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149509C6-49F7-4BA9-8347-5E2E79903DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
