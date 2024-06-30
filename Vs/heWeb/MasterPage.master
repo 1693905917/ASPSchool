@@ -27,6 +27,11 @@
                     </tr>
                     <tr>
                         <td>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/xhxx.aspx">校徽校训</asp:HyperLink>
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td>
                             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/sight.aspx">校园风光</asp:HyperLink>
                         </td>                      
                     </tr>
